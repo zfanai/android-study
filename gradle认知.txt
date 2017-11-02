@@ -1,0 +1,1 @@
+gradle是一个构建工具， 类似于maven, ant, make 这样的工具的作用。
