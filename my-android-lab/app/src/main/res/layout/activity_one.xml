@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <Button
+        android:id="@+id/btnSimpleToast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="默认" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnSimpleToastWithCustomPosition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义显示位置" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnSimpleToastWithImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="带图片" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnCustomToast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="完全自定义" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnRunToastFromOtherThread"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="其他线程" >
+    </Button>
+
+</LinearLayout>
