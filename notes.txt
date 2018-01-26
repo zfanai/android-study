@@ -1,0 +1,7 @@
+*.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo *.rej *~ #*# .#* .*.swp .DS_Store */build/* */Debug/* */Release/* *.class *.obj */EWARM/* *.crf *.d *i */\_build/* *.tmp celerybeat* node_modules .git
+
+为什么svn 无法识别 png文件
+
+svn 不识别  hdpi文件夹
+
+*i  去掉
