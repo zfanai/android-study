@@ -4,4 +4,13 @@ ScrollView只能有一个子节点。
 2. 尝试了透明的导航栏和状态栏，APP窗口的显示区域可以伸展到状态栏区域和导航栏区域。
 
 沉浸状态栏的总结
-1. 
+1.  代码上，两行关键代码
+           getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            //透明导航栏
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+    可以在setContentView之后调用
+2. 标题栏的隐藏， 通过style.xml文件里指定
+   windowActionBar   属性为  false 
+   android:theme 的指定  跟 appcompat的版本有关系， 如果不匹配有可能编译出错。 
+
+3. 在根布局里， android:fitsSystemWindows 属性设为 false , 或者 不写该属性。 

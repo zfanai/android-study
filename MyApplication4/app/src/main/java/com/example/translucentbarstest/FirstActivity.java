@@ -20,7 +20,7 @@ public class FirstActivity extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_1);
+        setContentView(R.layout.activity_first);
         initState();
     }
 
