@@ -19,12 +19,34 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    <Button
-        android:id="@+id/button1"
+
+    <LinearLayout
+        android:id="@+id/first_container"
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_hello_world"
-        android:text="Button1" />
+        android:layout_below="@id/tv_hello_world">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast示例" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝牙示例" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MPChart示例" />
+    </LinearLayout>
+
+
 
 
     <!--
@@ -41,7 +63,7 @@
         android:id="@+id/clv_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/button1"
+        android:layout_below="@id/first_container"
         android:background="#b6b">
     </com.medtrum.androidstudy.CustomListView>
 

@@ -11,6 +11,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    public static final int REQUEST_CODE_ALL_PERMISSIONS = 26;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,5 +45,42 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        //
+        Button Btn2 = (Button)findViewById(R.id.button2);//获取按钮资源
+        Btn2.setOnClickListener(new Button.OnClickListener(){//创建监听
+            public void onClick(View v) {
+                //String strTmp = "点击Button01";
+                //Ev1.setText(strTmp);
+                //Toast.makeText(getApplicationContext(), "默认Toast样式",
+                //        Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this, BleTestActivity.class);
+                intent.putExtra(BleTestActivity.EXTRA_PARAM, 123);
+                startActivity(intent);
+            }
+
+        });
+
+        // 测试MPChart
+        Button Btn3 = (Button)findViewById(R.id.button3);//获取按钮资源
+        Btn3.setOnClickListener(new Button.OnClickListener(){//创建监听
+            public void onClick(View v) {
+                //String strTmp = "点击Button01";
+                //Ev1.setText(strTmp);
+                //Toast.makeText(getApplicationContext(), "默认Toast样式",
+                //        Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this, MPChartTestActivity.class);
+                intent.putExtra(MPChartTestActivity.EXTRA_PARAM, 123);
+                startActivity(intent);
+            }
+
+        });
+
+        //PDMInstance a=PDMInstance.getInstance();
+        //Log.i()
+        //测试单例代码无法调试的问题， 后来找到是由于
+        TestInstance tins = TestInstance.getInstance();
     }
 }

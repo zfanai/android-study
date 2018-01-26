@@ -1,0 +1,303 @@
+{
+  "project_info": {
+    "project_number": "280993889420",
+    "firebase_url": "https://healthcareforandroid.firebaseio.com",
+    "project_id": "healthcareforandroid",
+    "storage_bucket": "healthcareforandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:e70b0ef1da68092c",
+        "android_client_info": {
+          "package_name": "com.medtrum.healthcareforandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-nuj77qtapq6fl2bvg6df839b2ia5i7ur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medtrum.healthcareforandroid",
+            "certificate_hash": "5a1bc9f859a51bb1f9fd4467e41a7fcb7921c414"
+          }
+        },
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:3251969834184753",
+        "android_client_info": {
+          "package_name": "com.medtrum.easytouchforandroidmg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:1d777fe3a1774cb6",
+        "android_client_info": {
+          "package_name": "com.medtrum.easytouchforandroidmmol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:8b454a9c72f92d59",
+        "android_client_info": {
+          "package_name": "com.medtrum.easysenseforandroidmg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:b89008cfacf406e4",
+        "android_client_info": {
+          "package_name": "com.medtrum.easysenseforandroidmmol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:a6c32a1ac5eb3d5f",
+        "android_client_info": {
+          "package_name": "com.medtrum.easypatchforandroidmg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:aed1e189a5426617",
+        "android_client_info": {
+          "package_name": "com.medtrum.easypatchforandroidmmol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:b474f7d53b3b7316",
+        "android_client_info": {
+          "package_name": "com.medtrum.easyfollowforandroidmg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280993889420:android:620758902cd2a854",
+        "android_client_info": {
+          "package_name": "com.medtrum.easyfollowforandroidmmol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280993889420-fsqdknl80ofevjcilhkb69to7lhfnq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDYcx9WPaZKGuxUCAhcFCqn8cDyiplWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
