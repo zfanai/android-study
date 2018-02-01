@@ -12,6 +12,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.os.Build;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -33,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //int version = android.provider.Settings.System.getInt(
+        //        getApplicationContext().getContentResolver(),
+        //        android.provider.Settings.System.SYS_PROP_SETTING_VERSION,
+        //        3);
+        Log.i("a", "version:"+Build.VERSION.SDK_INT);
 
         final ActionBar ab = getSupportActionBar();
         ab.setHomeAsUpIndicator(R.drawable.ic_menu);
@@ -62,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mViewPager = (ViewPager) findViewById(R.id.viewpager);
-        setupViewPager();
+        //mViewPager = (ViewPager) findViewById(R.id.viewpager);
+        //setupViewPager();
 
     }
 
@@ -83,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /*
     private void setupViewPager() {
         mTabLayout = (TabLayout) findViewById(R.id.tabs);
         List<String> titles = new ArrayList<>();
@@ -101,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(adapter);
         mTabLayout.setupWithViewPager(mViewPager);
         mTabLayout.setTabsFromPagerAdapter(adapter);
-    }
+    } */
 
     private void setupDrawerContent(NavigationView navigationView) {
         navigationView.setNavigationItemSelectedListener(
