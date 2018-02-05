@@ -14,10 +14,10 @@ public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_2);
+        setContentView(R.layout.activity_detail_4);
 
-        Toolbar toolbar = (Toolbar) this.findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) this.findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         //int version = android.provider.Settings.System.getInt(
         //        getApplicationContext().getContentResolver(),

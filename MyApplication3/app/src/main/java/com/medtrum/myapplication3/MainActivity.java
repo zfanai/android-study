@@ -1,32 +1,35 @@
 package com.medtrum.myapplication3;
 
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 import android.graphics.Color;
 import android.os.Build;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_1);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         /* */
         // 状态栏
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        //getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         //透明导航栏
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        //getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
 
         /*
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
@@ -36,7 +39,18 @@ public class MainActivity extends AppCompatActivity {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }*/
 
-
+        Button btn = (Button) findViewById(R.id.button1);
+        btn.setOnClickListener(this);
+        /*btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Rect outRect=new Rect();
+                getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);
+                Log.i("height", "size:"+outRect.height()+","+outRect.width());
+                MainActivity.this.getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);
+                Log.i("height", "size:"+outRect.height()+","+outRect.width());
+            }
+        });*/
 
         /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -47,6 +61,18 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+    }
+
+    @Override
+    public void onClick(View v) {
+        Rect outRect=new Rect();
+        getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);
+        Log.i("height", "size:"+outRect.height()+","+outRect.width());
+        //MainActivity.this.getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);
+        //Log.i("height", "size:"+outRect.height()+","+outRect.width());
+
+        findViewById(R.id.rootView).getDrawingRect(outRect);
+        Log.i("height", "size:"+outRect.height()+","+outRect.width());
     }
 
     @Override
